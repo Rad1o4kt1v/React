@@ -1,0 +1,42 @@
+.profile-card {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    list-style: none;
+}
+
+/* Картинка */
+.profile-card img {
+    width: 120px;                     /* Размер */
+    height: 120px;
+    object-fit: cover;                /* Чтобы не искажалась */
+    border-radius: 50%;               /* Делаем круглую */
+    display: block;                   /* Чтобы margin работал */
+    margin: 0 auto 15px auto;         /* Центрируем и добавляем отступ снизу */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Легкая тень */
+}
+
+/* Меню */
+.menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+.menu-container li {
+
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.menu-container li:hover {
+    color: #007bff;
+}
